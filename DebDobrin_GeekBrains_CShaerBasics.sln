@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebDobrin_GeekBrains_CShaerBasics", "DebDobrin_GeekBrains_CShaerBasics\DebDobrin_GeekBrains_CShaerBasics.csproj", "{B2748BB2-A89D-43CF-8AD3-2D7D63426861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1", "Lesson1\Lesson1.csproj", "{BBE0201C-CBCE-409E-9AA7-E3AC4261775B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2748BB2-A89D-43CF-8AD3-2D7D63426861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2748BB2-A89D-43CF-8AD3-2D7D63426861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2748BB2-A89D-43CF-8AD3-2D7D63426861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2748BB2-A89D-43CF-8AD3-2D7D63426861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE0201C-CBCE-409E-9AA7-E3AC4261775B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE0201C-CBCE-409E-9AA7-E3AC4261775B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE0201C-CBCE-409E-9AA7-E3AC4261775B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE0201C-CBCE-409E-9AA7-E3AC4261775B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D3F9BA4-270A-452D-8EF5-2789FE1586DD}
+	EndGlobalSection
+EndGlobal

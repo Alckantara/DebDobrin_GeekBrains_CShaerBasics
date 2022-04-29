@@ -6,7 +6,10 @@
 
 using System;
 
+using ClassLibrary.Interfaces;
+using ClassLibrary;
 using Lesson1.DataClasses;
+
 
 namespace Lesson1
 {

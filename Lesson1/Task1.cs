@@ -5,7 +5,11 @@
 //    в) используя вывод со знаком $.
 
 using System;
+
 using Lesson1.DataClasses;
+using ClassLibrary;
+using ClassLibrary.Interfaces;
+
 
 namespace Lesson1
 {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson1
+namespace ClassLibrary.Interfaces
 {
-    interface ITask
+    public interface ITask
     {
         public void Start();
     }

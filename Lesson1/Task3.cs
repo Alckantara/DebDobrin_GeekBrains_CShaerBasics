@@ -5,7 +5,11 @@
 //    б) *Выполнить предыдущее задание, оформив вычисления расстояния между точками в виде метода.
 
 using System;
+
 using Lesson1.DataClasses;
+using ClassLibrary;
+using ClassLibrary.Interfaces;
+
 
 namespace Lesson1
 {
@@ -20,7 +24,7 @@ namespace Lesson1
                 Y = double.Parse(Helper.GetInputParameter("Ось ординат (y)"))
             };
 
-            Console.WriteLine("Введите координаты точки B");
+            Helper.PrintLine("Введите координаты точки B");
             Point B = new()
             {
                 X = double.Parse(Helper.GetInputParameter("Ось абсцисс (x)")),

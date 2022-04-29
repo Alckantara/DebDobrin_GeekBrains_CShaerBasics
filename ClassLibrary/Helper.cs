@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson1
+namespace ClassLibrary
 {
     public class Helper
     {
         public static string GetInputParameter(string question = "", string separator = "-")
         {
             if (question != string.Empty)
-                Console.Write($"{question} {separator} ");
+                Helper.Print($"{question} {separator} ");
             return Console.ReadLine();
         }
 

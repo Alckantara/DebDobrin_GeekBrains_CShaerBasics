@@ -3,6 +3,10 @@
 //    а) с использованием третьей переменной;
 //    б) *без использования третьей переменной.
 
+using ClassLibrary;
+using ClassLibrary.Interfaces;
+
+
 namespace Lesson1
 {
     public class Task4 :ITask

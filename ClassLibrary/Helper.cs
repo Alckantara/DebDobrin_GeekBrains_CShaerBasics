@@ -36,5 +36,11 @@ namespace ClassLibrary
             Console.CursorLeft = x;
             Console.CursorTop = y;
         }
+
+        public static bool isEven(int value) =>
+            value % 2 == 0;
+
+        public static bool isPositive(int value) =>
+            value > 0;
     }
 }

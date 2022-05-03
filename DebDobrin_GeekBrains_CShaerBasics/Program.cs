@@ -21,8 +21,9 @@ namespace DebDobrin_GeekBrains_CShaerBasics
                 Console.Clear();
 
                 Helper.PrintLine($"Выберите номер урока (для выхода нажмите 'Esc'):{ Environment.NewLine }" +
-                    $"1 - Урок 1. Введение. Базовые типы данных. Консоль. Классы и методы.{ Environment.NewLine }" +
-                    $"2 - Урок 2. Управляющие конструкции{ Environment.NewLine }");
+                    $"1 - Урок №1. Введение. Базовые типы данных. Консоль. Классы и методы.{ Environment.NewLine }" +
+                    $"2 - Урок №2. Управляющие конструкции{ Environment.NewLine }" +
+                    $"3 - Урок №3. Методы. От структур к объектам. Исключения{ Environment.NewLine }");
 
                 ConsoleKeyInfo input = Console.ReadKey(true);
                 if (input.Key == ConsoleKey.Escape)
@@ -37,6 +38,9 @@ namespace DebDobrin_GeekBrains_CShaerBasics
                             break;
                         case ConsoleKey.D2:
                             StartLesson2();
+                            break;
+                        case ConsoleKey.D3:
+                            StartLesson3();
                             break;
                         default:
                             Helper.PrintLine("Введено неверное значение. Попробуйте снова!");
@@ -137,6 +141,50 @@ namespace DebDobrin_GeekBrains_CShaerBasics
                             break;
                         case ConsoleKey.D7:
                             new Lesson2.Task7().Start();
+                            break;
+                        default:
+                            Helper.PrintLine("Введено неверное значение. Попробуйте снова!");
+                            break;
+                    }
+                }
+                catch (FormatException)
+                {
+                    Helper.PrintLine("Вы ввели неверное числовое значение. Попробуйте снова");
+                }
+
+                Helper.PrintLine($"{ Environment.NewLine }{ Environment.NewLine } Нажмите любую кнопку, чтобы продолжить..");
+                Console.ReadKey();
+            }
+        }
+
+        public static void StartLesson3()
+        {
+            while (true)
+            {
+                Console.Clear();
+
+                Helper.PrintLine($"Выберите задание урока №3 (для выхода нажмите 'Esc'):{ Environment.NewLine }" +
+                    $"1 - Комплексные числа{ Environment.NewLine }" +
+                    $"2 - Сумма нечётных положительных чисел с отловом ошибок{ Environment.NewLine }");
+                    //$"3 - Дробные числа{ Environment.NewLine }");
+
+                ConsoleKeyInfo input = Console.ReadKey(true);
+                if (input.Key == ConsoleKey.Escape)
+                    break;
+
+                try
+                {
+                    switch (input.Key)
+                    {
+                        case ConsoleKey.D1:
+                            new Lesson3.Task1().Start();
+                            break;
+                        case ConsoleKey.D2:
+                            new Lesson3.Task2().Start();
+                            break;
+                        case ConsoleKey.D3:
+                            //throw new NotImplementedException();
+                            //new Lesson3.Task3().Start();
                             break;
                         default:
                             Helper.PrintLine("Введено неверное значение. Попробуйте снова!");

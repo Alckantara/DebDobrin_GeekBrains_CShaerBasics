@@ -20,17 +20,11 @@ namespace Lesson2
                 if (value == 0)
                     break;
 
-                if (!isEven(value) && isPositive(value))
+                if (!Helper.isEven(value) && Helper.isPositive(value))
                     counter++;
             }
             
             Helper.PrintLine($"Вы ввели { counter } нечетных положительных чисел");
         }
-
-        private bool isEven(int value) =>
-            value % 2 == 0;
-
-        private bool isPositive(int value) =>
-            value > 0;
     }
 }

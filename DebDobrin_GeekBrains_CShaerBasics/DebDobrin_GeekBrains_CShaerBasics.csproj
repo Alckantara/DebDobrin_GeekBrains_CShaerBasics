@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Lesson1\Lesson1.csproj" />
     <ProjectReference Include="..\Lesson2\Lesson2.csproj" />
+    <ProjectReference Include="..\Lesson3\Lesson3.csproj" />
   </ItemGroup>
 
 </Project>

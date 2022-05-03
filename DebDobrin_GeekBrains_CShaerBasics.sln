@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebDobrin_GeekBrains_CShaerBasics", "DebDobrin_GeekBrains_CShaerBasics\DebDobrin_GeekBrains_CShaerBasics.csproj", "{B2748BB2-A89D-43CF-8AD3-2D7D63426861}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson1", "Lesson1\Lesson1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2", "Lesson2\Lesson2.csproj", "{FD540B01-887C-48DD-980A-0B7DF1C59FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{D3D67155-532E-47BB-96D3-19ED69BAD756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{D3D67155-532E-47BB-96D3-19ED69BAD756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3", "Lesson3\Lesson3.csproj", "{FD3325C1-F67E-42E1-97A8-CE1C4FFE30B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D3D67155-532E-47BB-96D3-19ED69BAD756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D67155-532E-47BB-96D3-19ED69BAD756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D67155-532E-47BB-96D3-19ED69BAD756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3325C1-F67E-42E1-97A8-CE1C4FFE30B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3325C1-F67E-42E1-97A8-CE1C4FFE30B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3325C1-F67E-42E1-97A8-CE1C4FFE30B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3325C1-F67E-42E1-97A8-CE1C4FFE30B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

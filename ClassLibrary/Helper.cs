@@ -23,12 +23,17 @@ namespace ClassLibrary
             Console.WriteLine(message);
         }
 
-        public static void Print(string message, int x = -1, int y = -1)
+        public static void PrintLine<T>(T message, int x = -1, int y = -1)
+        {
+            PrintLine(message, x, y);
+        }
+
+        public static void Print<T>(T message, int x = -1, int y = -1)
         {
             if (x != -1 && y != -1)
                 SetCursorPosition(x, y);
 
-            Console.Write(message);
+            Console.Write(message.ToString());
         }
 
         public static void SetCursorPosition(int x, int y)
